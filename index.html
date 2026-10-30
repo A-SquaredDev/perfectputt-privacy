@@ -148,7 +148,7 @@
     </div>
 
     <h1>Privacy Policy</h1>
-    <p class="effective">Effective date: September 15, 2026</p>
+    <p class="effective">Effective date: October 30, 2026</p>
 
     <div class="highlight-box">
       Tap Putt does not require an account, does not collect your name or email,
@@ -158,9 +158,9 @@
     <!-- 1 -->
     <h2>1. Information We Collect</h2>
     <p>
-      Tap Putt stores the following data <strong>locally on your device only</strong>
-      using iOS system storage (UserDefaults). This data never leaves your device
-      and is not accessible to us:
+      Tap Putt stores the following data <strong>on your device</strong> using iOS
+      system storage (UserDefaults). We have no account system and no server of our
+      own, so we cannot look up any individual player's data:
     </p>
     <ul>
       <li>Your best scores and handicap index</li>
@@ -169,17 +169,22 @@
     </ul>
     <p>
       We do not collect your name, email address, precise location, contacts, or any
-      other personal information.
+      other personal information. Two things do leave your device: anonymous
+      gameplay statistics sent to our analytics service (section 2), and, if you
+      choose to sign in to Game Center, your scores and achievements (section 4).
     </p>
 
     <!-- 1b -->
     <h2>2. Analytics</h2>
     <p>
       Tap Putt uses <strong>TelemetryDeck</strong>, a privacy-first analytics service,
-      to understand how the game is played in aggregate (for example, how often runs
-      are started or which modes are used). TelemetryDeck receives anonymized usage
-      signals along with a device identifier that is irreversibly hashed before it is
-      stored, so it cannot be tied back to you or your device. This data is
+      to understand how the game is played in aggregate. Each signal describes a
+      gameplay event, for example: a run started or finished, its score, swing count
+      and your handicap band; a Daily Putt result and streak length; which mode or
+      share option was used; whether notifications were allowed; and whether an ad
+      was shown. TelemetryDeck receives these signals along with a device identifier
+      that is irreversibly hashed before it is stored, so it cannot be tied back to
+      you or your device. This data is
       <strong>not linked to your identity</strong> and is <strong>never used for
       tracking</strong> or advertising.
     </p>
@@ -221,9 +226,18 @@
 
     <!-- 3 -->
     <h2>4. Third-Party Services</h2>
-    <p>Tap Putt uses two third-party services: Google AdMob (advertising) and
-      TelemetryDeck (anonymized analytics). No social SDKs or cross-app tracking
-      SDKs are included.</p>
+    <p>Tap Putt uses three third-party services: Google AdMob (advertising),
+      TelemetryDeck (anonymized analytics) and Apple Game Center (leaderboards and
+      achievements). No social SDKs or cross-app tracking SDKs are included.</p>
+    <p>
+      <strong>Game Center</strong> is optional. If you sign in, Tap Putt submits your
+      scores and achievements to Apple under your Game Center identity, and the
+      leaderboard screen shows other players' Game Center display names, avatars and
+      scores. Apple handles this data under its own privacy policy:
+      <a href="https://www.apple.com/legal/privacy/" target="_blank" rel="noopener">
+        apple.com/legal/privacy</a>. If you never sign in, nothing is sent to Game
+      Center.
+    </p>
 
     <!-- 4 -->
     <h2>5. Children's Privacy</h2>
@@ -232,25 +246,26 @@
       personal information from any users, including children.
     </p>
     <p>
-      For advertising, we use Google AdMob configured with child-directed treatment
-      enabled, which limits ad personalization and disables interest-based advertising
-      in compliance with COPPA and Apple's guidelines for apps available to children.
+      Tap Putt does not request App Tracking Transparency permission, so the ads it
+      shows are not personalized using cross-app identifiers for any user.
     </p>
 
     <!-- 5 -->
     <h2>6. Data Retention &amp; Deletion</h2>
     <p>
-      All game progress stored by Tap Putt lives on your device. You can delete it
-      at any time by:
+      All game progress stored by Tap Putt lives on your device. You can delete that
+      data at any time by:
     </p>
     <ul>
       <li>Using the <strong>Reset Progress</strong> option inside the app's Settings screen, or</li>
       <li>Deleting the app from your device entirely.</li>
     </ul>
     <p>
-      Analytics signals are anonymized before they reach TelemetryDeck and cannot be
-      tied back to you, so there is nothing to delete on request. Deleting the app
-      stops all data collection.
+      Reset Progress clears your device only. Scores and achievements you have
+      already submitted to Game Center stay in your Apple account and can be managed
+      through Apple. Analytics signals are anonymized before they reach TelemetryDeck
+      and cannot be tied back to you, so there is nothing to delete on request.
+      Deleting the app stops all data collection.
     </p>
 
     <!-- 6 -->
@@ -265,11 +280,11 @@
     <h2>8. Contact</h2>
     <p>
       If you have any questions about this privacy policy, please contact us at:<br />
-      <a href="mailto:YOUR_EMAIL_HERE">asquared.dev@gmail.com</a>
+      <a href="mailto:asquared.dev@gmail.com">asquared.dev@gmail.com</a>
     </p>
 
     <hr class="divider" />
-    <p class="footer">Tap Putt &mdash; &copy; 2026 Aaron McKain</p>
+    <p class="footer">Tap Putt &mdash; &copy; 2026 A-Squared Dev</p>
 
   </div>
 </body>
